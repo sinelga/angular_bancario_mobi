@@ -8,7 +8,7 @@ import "package:dartapp/domains.dart";
     selector: 'bigarticle',
     templateUrl: 'packages/dartapp/bigarticle/bigarticle_component.html',
     applyAuthorStyles: true,
-//    cssUrl: 'packages/dartapp/smallarticle/smallarticle_component.css',
+//    cssUrl: 'packages/dartapp/smallarticle/bigarticle_component.css',
     publishAs: 'cmp')
  class  BigArticleComponent{
 

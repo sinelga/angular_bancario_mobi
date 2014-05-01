@@ -28,6 +28,15 @@ body {
    margin-right: 5px;
 }
 
+.titleGo {
+ /* font-family: 'Courgette', cursive;*/
+  display: block;
+  font-size: 100%;
+  /*  width: 300px;*/
+   margin-right: 5px;
+   color: #888888;
+}
+
 .googlefonttitle {
   font-family: 'Courgette', cursive;
   font-size: 90%;
