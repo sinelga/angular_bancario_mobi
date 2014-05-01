@@ -87,13 +87,13 @@ final Map<String, FieldGetter> getters = {
   r"articelobj": (o) => o.articelobj,
   r"cmp": (o) => o.cmp,
   r"Title": (o) => o.Title,
+  r"ImageLink": (o) => o.ImageLink,
   r"Cont": (o) => o.Cont,
   r"ctrl": (o) => o.ctrl,
   r"articlesListLoaded": (o) => o.articlesListLoaded,
   r"articleSelected": (o) => o.articleSelected,
   r"forMarkList": (o) => o.forMarkList,
   r"forMark": (o) => o.forMark,
-  r"ImageLink": (o) => o.ImageLink,
   r"selectedArticles": (o) => o.selectedArticles,
   r"selectArticles": (o) => o.selectArticles,
   r"closeBigArticle": (o) => o.closeBigArticle
@@ -183,13 +183,13 @@ final Map<String, FieldSetter> setters = {
   r"articelobj": (o, v) => o.articelobj = v,
   r"cmp": (o, v) => o.cmp = v,
   r"Title": (o, v) => o.Title = v,
+  r"ImageLink": (o, v) => o.ImageLink = v,
   r"Cont": (o, v) => o.Cont = v,
   r"ctrl": (o, v) => o.ctrl = v,
   r"articlesListLoaded": (o, v) => o.articlesListLoaded = v,
   r"articleSelected": (o, v) => o.articleSelected = v,
   r"forMarkList": (o, v) => o.forMarkList = v,
   r"forMark": (o, v) => o.forMark = v,
-  r"ImageLink": (o, v) => o.ImageLink = v,
   r"selectedArticles": (o, v) => o.selectedArticles = v
 };
 final Map<String, Symbol> symbols = {

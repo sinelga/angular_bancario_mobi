@@ -31602,49 +31602,49 @@ init.mangledNames = {call$0: "call:0:0", call$1: "call:1:0", call$1$appRoot: "ca
   closure175: {
     "^": "Closure:140;",
     call$1: [function(o) {
-      return o.get$Cont();
+      return o.get$ImageLink();
     }, "call$1", null, 2, 0, null, 95, [], "call"],
     $isFunction: true
   },
   closure176: {
     "^": "Closure:140;",
     call$1: [function(o) {
-      return o.get$ctrl();
+      return o.get$Cont();
     }, "call$1", null, 2, 0, null, 95, [], "call"],
     $isFunction: true
   },
   closure177: {
     "^": "Closure:140;",
     call$1: [function(o) {
-      return o.get$articlesListLoaded();
+      return o.get$ctrl();
     }, "call$1", null, 2, 0, null, 95, [], "call"],
     $isFunction: true
   },
   closure178: {
     "^": "Closure:140;",
     call$1: [function(o) {
-      return o.get$articleSelected();
+      return o.get$articlesListLoaded();
     }, "call$1", null, 2, 0, null, 95, [], "call"],
     $isFunction: true
   },
   closure179: {
     "^": "Closure:140;",
     call$1: [function(o) {
-      return o.get$forMarkList();
+      return o.get$articleSelected();
     }, "call$1", null, 2, 0, null, 95, [], "call"],
     $isFunction: true
   },
   closure180: {
     "^": "Closure:140;",
     call$1: [function(o) {
-      return o.get$forMark();
+      return o.get$forMarkList();
     }, "call$1", null, 2, 0, null, 95, [], "call"],
     $isFunction: true
   },
   closure181: {
     "^": "Closure:140;",
     call$1: [function(o) {
-      return o.get$ImageLink();
+      return o.get$forMark();
     }, "call$1", null, 2, 0, null, 95, [], "call"],
     $isFunction: true
   },
@@ -32344,7 +32344,7 @@ init.mangledNames = {call$0: "call:0:0", call$1: "call:1:0", call$1$appRoot: "ca
   closure83: {
     "^": "Closure:141;",
     call$2: [function(o, v) {
-      o.set$Cont(v);
+      o.set$ImageLink(v);
       return v;
     }, "call$2", null, 4, 0, null, 95, [], 350, [], "call"],
     $isFunction: true
@@ -32352,7 +32352,7 @@ init.mangledNames = {call$0: "call:0:0", call$1: "call:1:0", call$1$appRoot: "ca
   closure84: {
     "^": "Closure:141;",
     call$2: [function(o, v) {
-      o.set$ctrl(v);
+      o.set$Cont(v);
       return v;
     }, "call$2", null, 4, 0, null, 95, [], 350, [], "call"],
     $isFunction: true
@@ -32360,7 +32360,7 @@ init.mangledNames = {call$0: "call:0:0", call$1: "call:1:0", call$1$appRoot: "ca
   closure85: {
     "^": "Closure:141;",
     call$2: [function(o, v) {
-      o.set$articlesListLoaded(v);
+      o.set$ctrl(v);
       return v;
     }, "call$2", null, 4, 0, null, 95, [], 350, [], "call"],
     $isFunction: true
@@ -32368,7 +32368,7 @@ init.mangledNames = {call$0: "call:0:0", call$1: "call:1:0", call$1$appRoot: "ca
   closure86: {
     "^": "Closure:141;",
     call$2: [function(o, v) {
-      o.set$articleSelected(v);
+      o.set$articlesListLoaded(v);
       return v;
     }, "call$2", null, 4, 0, null, 95, [], 350, [], "call"],
     $isFunction: true
@@ -32376,7 +32376,7 @@ init.mangledNames = {call$0: "call:0:0", call$1: "call:1:0", call$1$appRoot: "ca
   closure87: {
     "^": "Closure:141;",
     call$2: [function(o, v) {
-      o.set$forMarkList(v);
+      o.set$articleSelected(v);
       return v;
     }, "call$2", null, 4, 0, null, 95, [], 350, [], "call"],
     $isFunction: true
@@ -32384,7 +32384,7 @@ init.mangledNames = {call$0: "call:0:0", call$1: "call:1:0", call$1$appRoot: "ca
   closure88: {
     "^": "Closure:141;",
     call$2: [function(o, v) {
-      o.set$forMark(v);
+      o.set$forMarkList(v);
       return v;
     }, "call$2", null, 4, 0, null, 95, [], 350, [], "call"],
     $isFunction: true
@@ -32392,7 +32392,7 @@ init.mangledNames = {call$0: "call:0:0", call$1: "call:1:0", call$1$appRoot: "ca
   closure89: {
     "^": "Closure:141;",
     call$2: [function(o, v) {
-      o.set$ImageLink(v);
+      o.set$forMark(v);
       return v;
     }, "call$2", null, 4, 0, null, 95, [], 350, [], "call"],
     $isFunction: true
@@ -40693,10 +40693,10 @@ Isolate.$lazy($, "_dartProxyCtor", "_dartProxyCtor", "get$_dartProxyCtor", funct
   };
 });
 Isolate.$lazy($, "getters", "getters", "get$getters", function() {
-  return P.LinkedHashMap_LinkedHashMap$_literal(["urls", new A.closure91(), "value", new A.closure92(), "bind", new A.closure93(), "valueExpression", new A.closure94(), "onAbort", new A.closure95(), "onBeforeCopy", new A.closure96(), "onBeforeCut", new A.closure97(), "onBeforePaste", new A.closure98(), "onBlur", new A.closure99(), "onChange", new A.closure100(), "onClick", new A.closure101(), "onContextMenu", new A.closure102(), "onCopy", new A.closure103(), "onCut", new A.closure104(), "onDoubleClick", new A.closure105(), "onDrag", new A.closure106(), "onDragEnd", new A.closure107(), "onDragEnter", new A.closure108(), "onDragLeave", new A.closure109(), "onDragOver", new A.closure110(), "onDragStart", new A.closure111(), "onDrop", new A.closure112(), "onError", new A.closure113(), "onFocus", new A.closure114(), "onFullscreenChange", new A.closure115(), "onFullscreenError", new A.closure116(), "onInput", new A.closure117(), "onInvalid", new A.closure118(), "onKeyDown", new A.closure119(), "onKeyPress", new A.closure120(), "onKeyUp", new A.closure121(), "onLoad", new A.closure122(), "onMouseDown", new A.closure123(), "onMouseEnter", new A.closure124(), "onMouseLeave", new A.closure125(), "onMouseMove", new A.closure126(), "onMouseOut", new A.closure127(), "onMouseOver", new A.closure128(), "onMouseUp", new A.closure129(), "onMouseWheel", new A.closure130(), "onPaste", new A.closure131(), "onReset", new A.closure132(), "onScroll", new A.closure133(), "onSearch", new A.closure134(), "onSelect", new A.closure135(), "onSelectStart", new A.closure136(), "onSubmit", new A.closure137(), "onTouchCancel", new A.closure138(), "onTouchEnd", new A.closure139(), "onTouchEnter", new A.closure140(), "onTouchLeave", new A.closure141(), "onTouchMove", new A.closure142(), "onTouchStart", new A.closure143(), "onTransitionEnd", new A.closure144(), "condition", new A.closure145(), "url", new A.closure146(), "name", new A.closure147(), "model", new A.closure148(), "idlAttrKind", new A.closure149(), "count", new A.closure150(), "expression", new A.closure151(), "templateUrl", new A.closure152(), "hide", new A.closure153(), "show", new A.closure154(), "checked", new A.closure155(), "disabled", new A.closure156(), "multiple", new A.closure157(), "open", new A.closure158(), "readonly", new A.closure159(), "required", new A.closure160(), "selected", new A.closure161(), "href", new A.closure162(), "src", new A.closure163(), "srcset", new A.closure164(), "styleExpression", new A.closure165(), "max", new A.closure166(), "min", new A.closure167(), "pattern", new A.closure168(), "minlength", new A.closure169(), "maxlength", new A.closure170(), "routeName", new A.closure171(), "articelobj", new A.closure172(), "cmp", new A.closure173(), "Title", new A.closure174(), "Cont", new A.closure175(), "ctrl", new A.closure176(), "articlesListLoaded", new A.closure177(), "articleSelected", new A.closure178(), "forMarkList", new A.closure179(), "forMark", new A.closure180(), "ImageLink", new A.closure181(), "selectedArticles", new A.closure182(), "selectArticles", new A.closure183(), "closeBigArticle", new A.closure184()], null, null);
+  return P.LinkedHashMap_LinkedHashMap$_literal(["urls", new A.closure91(), "value", new A.closure92(), "bind", new A.closure93(), "valueExpression", new A.closure94(), "onAbort", new A.closure95(), "onBeforeCopy", new A.closure96(), "onBeforeCut", new A.closure97(), "onBeforePaste", new A.closure98(), "onBlur", new A.closure99(), "onChange", new A.closure100(), "onClick", new A.closure101(), "onContextMenu", new A.closure102(), "onCopy", new A.closure103(), "onCut", new A.closure104(), "onDoubleClick", new A.closure105(), "onDrag", new A.closure106(), "onDragEnd", new A.closure107(), "onDragEnter", new A.closure108(), "onDragLeave", new A.closure109(), "onDragOver", new A.closure110(), "onDragStart", new A.closure111(), "onDrop", new A.closure112(), "onError", new A.closure113(), "onFocus", new A.closure114(), "onFullscreenChange", new A.closure115(), "onFullscreenError", new A.closure116(), "onInput", new A.closure117(), "onInvalid", new A.closure118(), "onKeyDown", new A.closure119(), "onKeyPress", new A.closure120(), "onKeyUp", new A.closure121(), "onLoad", new A.closure122(), "onMouseDown", new A.closure123(), "onMouseEnter", new A.closure124(), "onMouseLeave", new A.closure125(), "onMouseMove", new A.closure126(), "onMouseOut", new A.closure127(), "onMouseOver", new A.closure128(), "onMouseUp", new A.closure129(), "onMouseWheel", new A.closure130(), "onPaste", new A.closure131(), "onReset", new A.closure132(), "onScroll", new A.closure133(), "onSearch", new A.closure134(), "onSelect", new A.closure135(), "onSelectStart", new A.closure136(), "onSubmit", new A.closure137(), "onTouchCancel", new A.closure138(), "onTouchEnd", new A.closure139(), "onTouchEnter", new A.closure140(), "onTouchLeave", new A.closure141(), "onTouchMove", new A.closure142(), "onTouchStart", new A.closure143(), "onTransitionEnd", new A.closure144(), "condition", new A.closure145(), "url", new A.closure146(), "name", new A.closure147(), "model", new A.closure148(), "idlAttrKind", new A.closure149(), "count", new A.closure150(), "expression", new A.closure151(), "templateUrl", new A.closure152(), "hide", new A.closure153(), "show", new A.closure154(), "checked", new A.closure155(), "disabled", new A.closure156(), "multiple", new A.closure157(), "open", new A.closure158(), "readonly", new A.closure159(), "required", new A.closure160(), "selected", new A.closure161(), "href", new A.closure162(), "src", new A.closure163(), "srcset", new A.closure164(), "styleExpression", new A.closure165(), "max", new A.closure166(), "min", new A.closure167(), "pattern", new A.closure168(), "minlength", new A.closure169(), "maxlength", new A.closure170(), "routeName", new A.closure171(), "articelobj", new A.closure172(), "cmp", new A.closure173(), "Title", new A.closure174(), "ImageLink", new A.closure175(), "Cont", new A.closure176(), "ctrl", new A.closure177(), "articlesListLoaded", new A.closure178(), "articleSelected", new A.closure179(), "forMarkList", new A.closure180(), "forMark", new A.closure181(), "selectedArticles", new A.closure182(), "selectArticles", new A.closure183(), "closeBigArticle", new A.closure184()], null, null);
 });
 Isolate.$lazy($, "setters", "setters", "get$setters", function() {
-  return P.LinkedHashMap_LinkedHashMap$_literal(["urls", new A.closure(), "value", new A.closure0(), "bind", new A.closure1(), "valueExpression", new A.closure2(), "onAbort", new A.closure3(), "onBeforeCopy", new A.closure4(), "onBeforeCut", new A.closure5(), "onBeforePaste", new A.closure6(), "onBlur", new A.closure7(), "onChange", new A.closure8(), "onClick", new A.closure9(), "onContextMenu", new A.closure10(), "onCopy", new A.closure11(), "onCut", new A.closure12(), "onDoubleClick", new A.closure13(), "onDrag", new A.closure14(), "onDragEnd", new A.closure15(), "onDragEnter", new A.closure16(), "onDragLeave", new A.closure17(), "onDragOver", new A.closure18(), "onDragStart", new A.closure19(), "onDrop", new A.closure20(), "onError", new A.closure21(), "onFocus", new A.closure22(), "onFullscreenChange", new A.closure23(), "onFullscreenError", new A.closure24(), "onInput", new A.closure25(), "onInvalid", new A.closure26(), "onKeyDown", new A.closure27(), "onKeyPress", new A.closure28(), "onKeyUp", new A.closure29(), "onLoad", new A.closure30(), "onMouseDown", new A.closure31(), "onMouseEnter", new A.closure32(), "onMouseLeave", new A.closure33(), "onMouseMove", new A.closure34(), "onMouseOut", new A.closure35(), "onMouseOver", new A.closure36(), "onMouseUp", new A.closure37(), "onMouseWheel", new A.closure38(), "onPaste", new A.closure39(), "onReset", new A.closure40(), "onScroll", new A.closure41(), "onSearch", new A.closure42(), "onSelect", new A.closure43(), "onSelectStart", new A.closure44(), "onSubmit", new A.closure45(), "onTouchCancel", new A.closure46(), "onTouchEnd", new A.closure47(), "onTouchEnter", new A.closure48(), "onTouchLeave", new A.closure49(), "onTouchMove", new A.closure50(), "onTouchStart", new A.closure51(), "onTransitionEnd", new A.closure52(), "condition", new A.closure53(), "url", new A.closure54(), "name", new A.closure55(), "model", new A.closure56(), "idlAttrKind", new A.closure57(), "count", new A.closure58(), "expression", new A.closure59(), "templateUrl", new A.closure60(), "hide", new A.closure61(), "show", new A.closure62(), "checked", new A.closure63(), "disabled", new A.closure64(), "multiple", new A.closure65(), "open", new A.closure66(), "readonly", new A.closure67(), "required", new A.closure68(), "selected", new A.closure69(), "href", new A.closure70(), "src", new A.closure71(), "srcset", new A.closure72(), "styleExpression", new A.closure73(), "max", new A.closure74(), "min", new A.closure75(), "pattern", new A.closure76(), "minlength", new A.closure77(), "maxlength", new A.closure78(), "routeName", new A.closure79(), "articelobj", new A.closure80(), "cmp", new A.closure81(), "Title", new A.closure82(), "Cont", new A.closure83(), "ctrl", new A.closure84(), "articlesListLoaded", new A.closure85(), "articleSelected", new A.closure86(), "forMarkList", new A.closure87(), "forMark", new A.closure88(), "ImageLink", new A.closure89(), "selectedArticles", new A.closure90()], null, null);
+  return P.LinkedHashMap_LinkedHashMap$_literal(["urls", new A.closure(), "value", new A.closure0(), "bind", new A.closure1(), "valueExpression", new A.closure2(), "onAbort", new A.closure3(), "onBeforeCopy", new A.closure4(), "onBeforeCut", new A.closure5(), "onBeforePaste", new A.closure6(), "onBlur", new A.closure7(), "onChange", new A.closure8(), "onClick", new A.closure9(), "onContextMenu", new A.closure10(), "onCopy", new A.closure11(), "onCut", new A.closure12(), "onDoubleClick", new A.closure13(), "onDrag", new A.closure14(), "onDragEnd", new A.closure15(), "onDragEnter", new A.closure16(), "onDragLeave", new A.closure17(), "onDragOver", new A.closure18(), "onDragStart", new A.closure19(), "onDrop", new A.closure20(), "onError", new A.closure21(), "onFocus", new A.closure22(), "onFullscreenChange", new A.closure23(), "onFullscreenError", new A.closure24(), "onInput", new A.closure25(), "onInvalid", new A.closure26(), "onKeyDown", new A.closure27(), "onKeyPress", new A.closure28(), "onKeyUp", new A.closure29(), "onLoad", new A.closure30(), "onMouseDown", new A.closure31(), "onMouseEnter", new A.closure32(), "onMouseLeave", new A.closure33(), "onMouseMove", new A.closure34(), "onMouseOut", new A.closure35(), "onMouseOver", new A.closure36(), "onMouseUp", new A.closure37(), "onMouseWheel", new A.closure38(), "onPaste", new A.closure39(), "onReset", new A.closure40(), "onScroll", new A.closure41(), "onSearch", new A.closure42(), "onSelect", new A.closure43(), "onSelectStart", new A.closure44(), "onSubmit", new A.closure45(), "onTouchCancel", new A.closure46(), "onTouchEnd", new A.closure47(), "onTouchEnter", new A.closure48(), "onTouchLeave", new A.closure49(), "onTouchMove", new A.closure50(), "onTouchStart", new A.closure51(), "onTransitionEnd", new A.closure52(), "condition", new A.closure53(), "url", new A.closure54(), "name", new A.closure55(), "model", new A.closure56(), "idlAttrKind", new A.closure57(), "count", new A.closure58(), "expression", new A.closure59(), "templateUrl", new A.closure60(), "hide", new A.closure61(), "show", new A.closure62(), "checked", new A.closure63(), "disabled", new A.closure64(), "multiple", new A.closure65(), "open", new A.closure66(), "readonly", new A.closure67(), "required", new A.closure68(), "selected", new A.closure69(), "href", new A.closure70(), "src", new A.closure71(), "srcset", new A.closure72(), "styleExpression", new A.closure73(), "max", new A.closure74(), "min", new A.closure75(), "pattern", new A.closure76(), "minlength", new A.closure77(), "maxlength", new A.closure78(), "routeName", new A.closure79(), "articelobj", new A.closure80(), "cmp", new A.closure81(), "Title", new A.closure82(), "ImageLink", new A.closure83(), "Cont", new A.closure84(), "ctrl", new A.closure85(), "articlesListLoaded", new A.closure86(), "articleSelected", new A.closure87(), "forMarkList", new A.closure88(), "forMark", new A.closure89(), "selectedArticles", new A.closure90()], null, null);
 });
 Isolate.$lazy($, "symbols", "symbols", "get$symbols", function() {
   return P.LinkedHashMap_LinkedHashMap$_empty(null, null);
