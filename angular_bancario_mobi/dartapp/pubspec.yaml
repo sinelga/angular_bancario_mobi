@@ -1,7 +1,7 @@
 name: dartapp
 version: 0.0.1
 dependencies:
-  angular: 0.10.0
+  angular: any
   browser: any
   js: any
   shadow_dom: any

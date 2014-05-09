@@ -6,7 +6,7 @@ import 'package:di/static_injector.dart';
 import 'package:angular/core/module_internal.dart' as import_0;
 import 'package:di/di.dart' as import_1;
 import 'package:angular/core/registry.dart' as import_2;
-import 'package:angular/core/parser/parser.dart' as import_3;
+import 'package:angular/core/parser/parser.dart' as import_4;
 import 'package:angular/change_detection/change_detection.dart' as import_5;
 import 'package:angular/core/parser/dynamic_parser.dart' as import_6;
 import 'package:angular/core/parser/lexer.dart' as import_7;
@@ -29,12 +29,12 @@ Injector createStaticInjector({List<Module> modules, String name,
 final Map<Type, TypeFactory> factories = <Type, TypeFactory>{
   import_0.ExceptionHandler: (f) => new import_0.ExceptionHandler(),
   import_0.FormatterMap: (f) => new import_0.FormatterMap(f(import_1.Injector), f(import_2.MetadataExtractor)),
-  import_0.Interpolate: (f) => new import_0.Interpolate(f(import_3.Parser)),
+  import_0.Interpolate: (f) => new import_0.Interpolate(),
   import_0.ScopeDigestTTL: (f) => new import_0.ScopeDigestTTL(),
   import_0.ScopeStats: (f) => new import_0.ScopeStats(f(import_0.ScopeStatsEmitter), f(import_0.ScopeStatsConfig)),
   import_0.ScopeStatsEmitter: (f) => new import_0.ScopeStatsEmitter(),
-  import_0.RootScope: (f) => new import_0.RootScope(f(Object), f(import_3.Parser), f(import_5.FieldGetterFactory), f(import_0.FormatterMap), f(import_0.ExceptionHandler), f(import_0.ScopeDigestTTL), f(import_0.VmTurnZone), f(import_0.ScopeStats), f(import_6.ClosureMap)),
-  import_6.DynamicParser: (f) => new import_6.DynamicParser(f(import_7.Lexer), f(import_3.ParserBackend)),
+  import_0.RootScope: (f) => new import_0.RootScope(f(Object), f(import_4.Parser), f(import_5.FieldGetterFactory), f(import_0.FormatterMap), f(import_0.ExceptionHandler), f(import_0.ScopeDigestTTL), f(import_0.VmTurnZone), f(import_0.ScopeStats), f(import_6.ClosureMap)),
+  import_6.DynamicParser: (f) => new import_6.DynamicParser(f(import_7.Lexer), f(import_4.ParserBackend)),
   import_6.DynamicParserBackend: (f) => new import_6.DynamicParserBackend(f(import_6.ClosureMap)),
   import_7.Lexer: (f) => new import_7.Lexer(),
   import_8.Animate: (f) => new import_8.Animate(),
@@ -42,7 +42,7 @@ final Map<Type, TypeFactory> factories = <Type, TypeFactory>{
   import_8.BrowserCookies: (f) => new import_8.BrowserCookies(f(import_0.ExceptionHandler)),
   import_8.Cookies: (f) => new import_8.Cookies(f(import_8.BrowserCookies)),
   import_8.DirectiveMap: (f) => new import_8.DirectiveMap(f(import_1.Injector), f(import_2.MetadataExtractor), f(import_8.DirectiveSelectorFactory)),
-  import_8.ElementBinderFactory: (f) => new import_8.ElementBinderFactory(f(import_3.Parser), f(import_10.Profiler), f(Expando)),
+  import_8.ElementBinderFactory: (f) => new import_8.ElementBinderFactory(f(import_4.Parser), f(import_10.Profiler), f(Expando), f(import_8.ComponentFactory), f(import_8.TranscludingComponentFactory), f(import_8.ShadowDomComponentFactory)),
   import_8.EventHandler: (f) => new import_8.EventHandler(f(import_9.Node), f(Expando), f(import_0.ExceptionHandler)),
   import_8.ShadowRootEventHandler: (f) => new import_8.ShadowRootEventHandler(f(import_9.ShadowRoot), f(Expando), f(import_0.ExceptionHandler)),
   import_8.UrlRewriter: (f) => new import_8.UrlRewriter(),
@@ -55,7 +55,10 @@ final Map<Type, TypeFactory> factories = <Type, TypeFactory>{
   import_8.TextMustache: (f) => new import_8.TextMustache(f(import_9.Node), f(String), f(import_0.Interpolate), f(import_0.Scope), f(import_0.FormatterMap)),
   import_8.AttrMustache: (f) => new import_8.AttrMustache(f(import_8.NodeAttrs), f(String), f(import_0.Interpolate), f(import_0.Scope), f(import_0.FormatterMap)),
   import_8.DirectiveSelectorFactory: (f) => new import_8.DirectiveSelectorFactory(f(import_8.ElementBinderFactory)),
+  import_8.ShadowDomComponentFactory: (f) => new import_8.ShadowDomComponentFactory(f(Expando)),
   import_8.TaggingCompiler: (f) => new import_8.TaggingCompiler(f(import_10.Profiler), f(Expando)),
+  import_8.Content: (f) => new import_8.Content(f(import_8.ContentPort), f(import_9.Element)),
+  import_8.TranscludingComponentFactory: (f) => new import_8.TranscludingComponentFactory(f(Expando)),
   import_8.NullTreeSanitizer: (f) => new import_8.NullTreeSanitizer(),
   import_8.WalkingCompiler: (f) => new import_8.WalkingCompiler(f(import_10.Profiler), f(Expando)),
   import_8.NgElement: (f) => new import_8.NgElement(f(import_9.Element), f(import_0.Scope), f(import_8.Animate)),
@@ -84,7 +87,7 @@ final Map<Type, TypeFactory> factories = <Type, TypeFactory>{
   import_11.InputRadio: (f) => new import_11.InputRadio(f(import_9.Element), f(import_11.NgModel), f(import_0.Scope), f(import_11.NgValue), f(import_8.NodeAttrs)),
   import_11.ContentEditable: (f) => new import_11.ContentEditable(f(import_9.Element), f(import_11.NgModel), f(import_0.Scope)),
   import_11.NgPluralize: (f) => new import_11.NgPluralize(f(import_0.Scope), f(import_9.Element), f(import_0.Interpolate), f(import_0.FormatterMap)),
-  import_11.NgRepeat: (f) => new import_11.NgRepeat(f(import_8.ViewPort), f(import_8.BoundViewFactory), f(import_0.Scope), f(import_3.Parser), f(import_0.FormatterMap)),
+  import_11.NgRepeat: (f) => new import_11.NgRepeat(f(import_8.ViewPort), f(import_8.BoundViewFactory), f(import_0.Scope), f(import_4.Parser), f(import_0.FormatterMap)),
   import_11.NgTemplate: (f) => new import_11.NgTemplate(f(import_9.Element), f(import_8.TemplateCache)),
   import_11.NgHide: (f) => new import_11.NgHide(f(import_9.Element), f(import_8.Animate)),
   import_11.NgShow: (f) => new import_11.NgShow(f(import_9.Element), f(import_8.Animate)),
@@ -110,12 +113,13 @@ final Map<Type, TypeFactory> factories = <Type, TypeFactory>{
   import_11.NgModelMaxLengthValidator: (f) => new import_11.NgModelMaxLengthValidator(f(import_11.NgModel)),
   import_12.Currency: (f) => new import_12.Currency(),
   import_12.Date: (f) => new import_12.Date(),
-  import_12.Filter: (f) => new import_12.Filter(f(import_3.Parser)),
+  import_12.Filter: (f) => new import_12.Filter(f(import_4.Parser)),
   import_12.Json: (f) => new import_12.Json(),
   import_12.LimitTo: (f) => new import_12.LimitTo(f(import_1.Injector)),
   import_12.Lowercase: (f) => new import_12.Lowercase(),
+  import_12.Arrayify: (f) => new import_12.Arrayify(),
   import_12.Number: (f) => new import_12.Number(),
-  import_12.OrderBy: (f) => new import_12.OrderBy(f(import_3.Parser)),
+  import_12.OrderBy: (f) => new import_12.OrderBy(f(import_4.Parser)),
   import_12.Uppercase: (f) => new import_12.Uppercase(),
   import_12.Stringify: (f) => new import_12.Stringify(),
   import_13.NgRoutingUsePushState: (f) => new import_13.NgRoutingUsePushState(),
